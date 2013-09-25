@@ -15,6 +15,10 @@
            fetch="https://github.com/CarbonDev/"
            review="review.carbon-rom.com"
            sync-j="4" />
+		   
+  <remote  name="crx"
+           fetch="https://github.com/Carbon-Xperia/"
+           sync-j="4" />
 
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
@@ -529,4 +533,28 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="gh" revision="jb-mr2" />
   <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" remote="gh" revision="jb-mr2" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
+
+  <!-- Sony Xperia Z, ZL, Tablet Z device files -->
+  <project name="android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="crx" revision="cm-10.2" />
+  <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="crx" revision="cm-10.2" /> 
+  <project name="android_device_sony_tigari" path="device/sony/togari" remote="crx"   revision="cm-10.2" groups="device,togari" />
+  <project name="android_device_sony_honami" path="device/sony/honami" remote="crx"   revision="cm-10.2" groups="device,honami" />
+  <project name="android_device_sony_rhine-common" path="device/sony/rhine-common" remote="crx"   revision="cm-10.2" />
+  <project name="android_device_sony_yuga" path="device/sony/yuga" remote="crx"   revision="cm-10.2" groups="device,yuga" >
+      <copyfile src="bootlogo/logo.rle" dest="device/sony/common/bootlogo/1080x1920.rle" />
+  </project>
+  <project name="android_device_sony_odin" path="device/sony/odin" remote="crx"   revision="cm-10.2" groups="device,odin" />
+  <project name="android_device_sony_pollux" path="device/sony/pollux" remote="crx"   revision="cm-10.2" groups="device,pollux" >
+      <copyfile src="bootlogo/logo.rle" dest="device/sony/common/bootlogo/1920x1200.rle" />
+  </project>
+  <project name="android_device_sony_pollux_windy" path="device/sony/pollux_windy" remote="crx" revision="cm-10.2" groups="device,pollux_windy" />
+
+<!-- Common Sony device files for 2013 devices -->
+  <project path="device/sony/fusion3-common" name="CyanogenMod/android_device_sony_fusion3-common" remote="cm" revision="cm-10.2" />
+  <project path="device/sony/pollux-common" name="CyanogenMod/android_device_sony_pollux-common" remote="cm" revision="cm-10.2" />
+  <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="cm" revision="cm-10.2" />
+  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="cm" revision="cm-10.2" />
+  <project name="proprietary_vendor_sony" path="vendor/sony" remote="tm" revision="cm-10.2" />
+  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="cm" revision="cm-10.2" />
+
 </manifest>
