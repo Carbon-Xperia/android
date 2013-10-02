@@ -537,7 +537,7 @@
   <!-- Sony Xperia MSM8x60 & MSM8x74 device files -->
   <project name="android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="crx" revision="cm-10.2" />
   <project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="crx" revision="cm-10.2" /> 
-  <project name="android_device_sony_tigari" path="device/sony/togari" remote="crx"   revision="cm-10.2" groups="device,togari" />
+  <project name="android_device_sony_togari" path="device/sony/togari" remote="crx"   revision="cm-10.2" groups="device,togari" />
   <project name="android_device_sony_honami" path="device/sony/honami" remote="crx"   revision="cm-10.2" groups="device,honami" />
   <project name="android_device_sony_rhine-common" path="device/sony/rhine-common" remote="crx"   revision="cm-10.2" />
   <project name="android_device_sony_yuga" path="device/sony/yuga" remote="crx"   revision="cm-10.2" groups="device,yuga" >
