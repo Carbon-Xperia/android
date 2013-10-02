@@ -549,9 +549,9 @@
   </project>
   <project name="android_device_sony_pollux_windy" path="device/sony/pollux_windy" remote="crx" revision="cm-10.2" groups="device,pollux_windy" />
 
-  <project path="hardware/qcom/audio-bfam" name="Kali-/android_hardware_qcom_audio-bfam" remote="gh" revision="cm-10.2" />
-  <project path="hardware/qcom/media-v4l2" name="Kali-/android_hardware_qcom_media-v4l2" remote="gh" revision="cm-10.2" />
-  <project path="hardware/qcom/display-mdss" name="Kali-/android_hardware_qcom_display-mdss" remote="gh" revision="cm-10.2" />
+  <project path="hardware/qcom/audio-bfam" name="CyanogenMod/android_hardware_qcom_audio-bfam" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/media-v4l2" name="CyanogenMod/android_hardware_qcom_media-v4l2" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/display-mdss" name="CyanogenMod/android_hardware_qcom_display-mdss" remote="cm" revision="cm-10.2" />
   
 <!-- Common Sony device files for 2013 devices -->
   <project path="device/sony/fusion3-common" name="CyanogenMod/android_device_sony_fusion3-common" remote="cm" revision="cm-10.2" />
